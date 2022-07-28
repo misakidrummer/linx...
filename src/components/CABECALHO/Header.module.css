@@ -1,0 +1,45 @@
+.textoHeader {
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.cabecalho {
+  display: flex;
+  width: 100%;
+  padding: 2em 0 0 0;
+  height: fit-content;
+  justify-content: space-evenly;
+  flex-direction: column;
+  /* background-color: #ff0000; */
+  background-color: #85ffbd;
+  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+}
+
+.buttaozinho {
+  display: flex;
+  margin-bottom: 1em;
+  padding: 1em 0 0 0;
+  place-items: center;
+  place-content: center;
+  flex-wrap: wrap;
+}
+
+.Ponta {
+  display: flex;
+  justify-self: flex-end;
+}
+
+.ponta {
+  width: 0;
+  height: 0;
+  border-left: 0px solid transparent;
+  border-right: 99vw solid transparent;
+  border-bottom: 180px solid azure;
+}
+
+@media (max-width: 800px) {
+  .textoHeader {
+    text-align: left;
+    padding-left: 50px;
+  }
+}

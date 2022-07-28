@@ -1,0 +1,53 @@
+.componente {
+  margin-top: 80px;
+  width: 50%;
+  display: flex;
+  place-self: center;
+  flex-direction: row;
+  place-content: center;
+}
+
+.texto {
+  margin-right: 3em;
+}
+
+.formulas {
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  place-items: center;
+  text-align: left;
+}
+
+.quadrado {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  margin: 10px;
+}
+
+@media (max-width: 800px) {
+  .componente {
+    width: 100%;
+    padding: 30px;
+    flex-direction: column;
+  }
+
+  .formulas {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .quadrado {
+    width: 50%;
+  }
+}
+
+/* ajude {
+    margin-bottom: 45em;
+}
+
+.textoDois {
+        color: #000000;
+
+} */

@@ -1,0 +1,47 @@
+.produtos span {
+    margin: 0 0 0 0;
+    font-size: 14px;
+}
+
+.produtos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 350px;
+    margin-bottom: 50px;
+    letter-spacing: 1px;
+    text-align: left;
+}
+
+.preco {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.infoContainer {
+
+
+}
+
+.mockupImg {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    border: 3px solid #00e0a8;
+}
+
+@media (max-width: 800px) {
+    .mockupImg {
+        width: 130px;
+        height: 130px;
+        margin: 1em;
+    }
+
+    .produtos {
+        margin: 0;
+        width: 100vw;
+        flex-direction: row;
+    }
+}

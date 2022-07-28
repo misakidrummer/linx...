@@ -1,0 +1,31 @@
+.inputDois {
+    display: flex;
+    flex-direction: column;
+}
+
+.bolinhazinha {
+    flex-direction: row;
+    justify-content: space-around;
+}
+  
+.bolinha {
+    margin: 7px;
+}
+
+.retangulo {
+    color: #000000;
+    font-size: 1em;
+}
+
+.inputs {
+    padding: 5px;
+    margin: 10px;
+    min-width: 340px;
+    height: 30px;
+}
+
+@media (max-width: 400px) {
+    .inputs {
+        min-width: unset;
+    }
+}

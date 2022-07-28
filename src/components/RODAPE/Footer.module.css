@@ -1,0 +1,19 @@
+.EstiloRodape {
+    height: 300px;
+    width: 100%;
+    background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+
+}
+
+.pontinhaDois {
+    width: 0;
+    height: 0;
+    border-left: 0px solid transparent;
+    border-right: 99vw solid transparent;
+    border-top: 180px solid azure;
+}
+
+* {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
